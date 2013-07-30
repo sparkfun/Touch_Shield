@@ -7773,9 +7773,10 @@ initially designed for MPR121 |
 <sheet>
 <plain>
 <text x="171.196" y="11.938" size="2.54" layer="97">A.Weiss</text>
-<text x="114.3" y="45.72" size="2.54" layer="97">ADDR is tied to GND - I2C address is 0x5A</text>
+<text x="114.3" y="45.72" size="2.54" layer="97">ADDR is default tied to GND - I2C address is 0x5A</text>
 <text x="238.76" y="7.62" size="2.54" layer="97" font="vector">v12</text>
 <text x="176.276" y="6.858" size="2.54" layer="97">T. Klopfenstein</text>
+<text x="114.3" y="40.64" size="2.54" layer="97">If ADDR is tied to 3.3V - I2C address is 0x5B</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

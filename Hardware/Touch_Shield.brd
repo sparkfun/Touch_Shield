@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1452,12 +1452,24 @@ design rules under a new name.</description>
 <element name="JP1" library="SparkFun" package="SFE-NEW-WEBLOGO" value="LOGO-SFENEW" x="5.334" y="1.3208"/>
 <element name="U1" library="SparkFun-Boards" package="UNO_R3_SHIELD" value="ARDUINO_R3_SHIELD" x="0" y="0"/>
 <element name="JP5" library="SparkFun" package="1X03" value="extra" x="50.8" y="8.89" rot="R270"/>
-<element name="R2" library="SparkFun" package="0603-RES" value="10k" x="42.545" y="8.89" rot="R180"/>
+<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="10k" x="42.545" y="8.89" rot="R180">
+<attribute name="PROD_ID" value="RES-00824" x="42.545" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10K" x="42.545" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="Q1" library="SparkFun" package="SOT23-3" value="BSS138" x="42.545" y="6.35"/>
-<element name="R4" library="SparkFun" package="0603-RES" value="10k" x="38.735" y="8.89"/>
+<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="10k" x="38.735" y="8.89">
+<attribute name="PROD_ID" value="RES-00824" x="38.735" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10K" x="38.735" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
 <element name="Q2" library="SparkFun" package="SOT23-3" value="BSS138" x="38.735" y="6.35"/>
-<element name="R3" library="SparkFun" package="0603-RES" value="10k" x="42.545" y="3.81" rot="R180"/>
-<element name="R5" library="SparkFun" package="0603-RES" value="10k" x="38.735" y="3.81" rot="R180"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="10k" x="42.545" y="3.81" rot="R180">
+<attribute name="PROD_ID" value="RES-00824" x="42.545" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10K" x="42.545" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R5" library="SparkFun-Resistors" package="0603-RES" value="10k" x="38.735" y="3.81" rot="R180">
+<attribute name="PROD_ID" value="RES-00824" x="38.735" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10K" x="38.735" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="8.636" y="7.366"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-4.34045625" y="-22.86"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="6.985" y="-25.4"/>
@@ -1927,96 +1939,6 @@ design rules under a new name.</description>
 <contactref element="U1" pad="IOREF"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,001aec72ef300358"/>
-<approved hash="3,1,201a8c728f312359"/>
-<approved hash="3,1,201a0c720f302358"/>
-<approved hash="3,1,081a8c728f300b58"/>
-<approved hash="3,1,381b0c730f303b58"/>
-<approved hash="3,1,cfb7b57fb57bcfb3"/>
-<approved hash="3,1,ce97b45fb59bcf53"/>
-<approved hash="3,1,ce97b45fb59bcf53"/>
-<approved hash="3,1,cf97b55fb583cf4b"/>
-<approved hash="3,1,cf97b55fb5f3cf3b"/>
-<approved hash="3,1,4b9cd264d2614b99"/>
-<approved hash="3,1,4abcd344d2814b79"/>
-<approved hash="3,1,4abcd344d2814b79"/>
-<approved hash="3,1,4bbcd244d2e94b11"/>
-<approved hash="3,1,4bbcd244d2994b61"/>
-<approved hash="3,1,0fd7041f03be0876"/>
-<approved hash="3,1,cfd6041e03bfc877"/>
-<approved hash="3,1,cfd6841e83bec876"/>
-<approved hash="3,1,4fd7e41fe3be4876"/>
-<approved hash="3,1,2fd6841e83be2876"/>
-<approved hash="5,1,03678087d8bfeb5f"/>
-<approved hash="5,1,521f8087c4e03051"/>
-<approved hash="5,1,5232b29485ea60cd"/>
-<approved hash="5,1,38abbadbd2e3e093"/>
-<approved hash="5,1,5013badbccb8324d"/>
-<approved hash="5,1,a0cb45f2b28c5234"/>
-<approved hash="5,1,502eb08887f662d1"/>
-<approved hash="5,1,f4de76ad8e95dce5"/>
-<approved hash="5,1,51e676ad913033b9"/>
-<approved hash="5,1,a2df47feb0805020"/>
-<approved hash="5,1,51dab17c86026325"/>
-<approved hash="5,1,8e500c307437a657"/>
-<approved hash="5,1,6fe80c3055b80db5"/>
-<approved hash="5,1,6fd68f70b80e5d29"/>
-<approved hash="5,1,a323460ab17451dc"/>
-<approved hash="5,1,9d3778168f686fc8"/>
-<approved hash="5,1,30b1f133696b2959"/>
-<approved hash="5,1,e4cc0833716a211d"/>
-<approved hash="5,1,1cde8359af4361cc"/>
-<approved hash="5,1,93ac0a637779bfbe"/>
-<approved hash="5,1,fcdbd9c70cda4059"/>
-<approved hash="5,1,b47ff44dfda53c27"/>
-<approved hash="5,1,ae706aad46bbd37a"/>
-<approved hash="5,1,665aa4dbd9cd4a50"/>
-<approved hash="5,1,f0c200148723df13"/>
-<approved hash="5,1,574687149f2ccea9"/>
-<approved hash="5,1,00d09757bb4d7dc2"/>
-<approved hash="5,1,9fa2066d7b77b3b0"/>
-<approved hash="5,1,263566076e6eaeed"/>
-<approved hash="5,1,68d5cdc9161ec613"/>
-<approved hash="5,1,ba7e7ea352b5c774"/>
-<approved hash="5,1,7a54b0d5cdc3565e"/>
-<approved hash="5,1,20e070b2694bb8c8"/>
-<approved hash="5,1,ccc037b271469f11"/>
-<approved hash="5,1,34d2ab55874f49c0"/>
-<approved hash="5,1,aba0326f4f7587b2"/>
-<approved hash="5,1,94d7f1cb20fd847d"/>
-<approved hash="5,1,685b99a991f1e00c"/>
-<approved hash="5,1,b67c72a15eb7cb76"/>
-<approved hash="5,1,4e568cd7f1c1625c"/>
-<approved hash="5,1,d8c62c78eb1b1f17"/>
-<approved hash="5,1,aaaaeb78f3103292"/>
-<approved hash="5,1,38d4bf53934945c6"/>
-<approved hash="5,1,b7a62e6953739bb4"/>
-<approved hash="5,1,d29802ea0a325ab0"/>
-<approved hash="5,1,00d1e5cd22470abe"/>
-<approved hash="5,1,827a46a76ab1ff70"/>
-<approved hash="5,1,425098d1e5c76e5a"/>
-<approved hash="5,1,ec488f5960b30113"/>
-<approved hash="5,1,00fc61524eb82da7"/>
-<approved hash="5,1,010860a64f4c2c53"/>
-<approved hash="5,1,d25cb1455eaf3f07"/>
-<approved hash="5,1,3f045eaa7140125f"/>
-<approved hash="5,1,efa08ca1634b02fb"/>
-<approved hash="5,1,edb48ead614700ef"/>
-<approved hash="5,1,02e0634e4ca42fbb"/>
-<approved hash="5,1,60a174817f3dc7a8"/>
-<approved hash="5,1,5eb54a9d7f2d59a4"/>
-<approved hash="5,1,f48b72eb5ad28cb2"/>
-<approved hash="5,1,615d75757f3d765c"/>
-<approved hash="5,1,1b5a9eaab692c362"/>
-<approved hash="5,1,634977797f2d3400"/>
-<approved hash="5,1,ccc082e16a18e4b8"/>
-<approved hash="5,1,d62d58dd70e4be14"/>
-<approved hash="5,1,2a3c206aa82346c2"/>
-<approved hash="19,1,a6e375c715942f87"/>
-<approved hash="19,1,fdb8af6b80290d75"/>
-<approved hash="5,1,3a3c306ea0274ec2"/>
-</errors>
 </board>
 </drawing>
 </eagle>

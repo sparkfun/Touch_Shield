@@ -2,7 +2,7 @@ Touch Shield
 ============
 
 [![Touch Shield](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/0/5/0/8/10508-01_i_ma.jpg)  
-*Touch Shield (DEV-10508)*](https://www.sparkfun.com/products/10508)
+*Touch Shield (DEV-12013)*](https://www.sparkfun.com/products/12013)
 
 
 The Touch Shield allows you to easily interface the MPR121 IC to your Arduino. It has 9 capacitive touch pads,
@@ -12,12 +12,17 @@ Repository Contents
 -------------------
 * **/Firmware** - Example firmware for interfacing with the Touch Shield
 * **/Hardware** - All Eagle board design files (.brd, .sch)
+* **/Production** - Test bed files and production panel files
 
 Product Versions
 ----------------
 * [DEV-10508](https://www.sparkfun.com/products/10508)- Basic Touch Shield
 * [RTL-10774] (https://www.sparkfun.com/products/10774)- Retail packaging of the Touch Shield and Arduino stackable headers
 
+
+Version History
+---------------
+* [DEV-10508](https://www.sparkfun.com/products/10508) Version 1.1
 
 License Information
 -------------------

@@ -1,3 +1,8 @@
+**NOTE:** *This product has been retired from our catalog. If you are looking for more up-to-date info, please check out some of these resources to see how other users are still hacking and improving on this product. *
+* [SparkFun Forum](https://forum.sparkfun.com/)
+* [Comments Here on GitHub](https://github.com/sparkfun/ColorLCDShield/issues)
+* [IRC Channel](https://www.sparkfun.com/news/263)
+
 Touch Shield
 ============
 
@@ -17,7 +22,7 @@ Repository Contents
 Product Versions
 ----------------
 * [DEV-10508](https://www.sparkfun.com/products/10508)- Basic Touch Shield
-* [RTL-10774] (https://www.sparkfun.com/products/10774)- Retail packaging of the Touch Shield and Arduino stackable headers
+* [RTL-10774](https://www.sparkfun.com/products/10774)- Retail packaging of the Touch Shield and Arduino stackable headers
 
 
 Version History
